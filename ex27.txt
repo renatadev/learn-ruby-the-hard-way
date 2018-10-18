@@ -1,0 +1,67 @@
+Memorising logic
+
+The truth terms:
+&& (and)
+|| (or)
+! (not)
+!= (not equal)
+== (equal)
+>= (greater-than-equal)
+<= (less-than-equal)
+true
+false
+
+  The truth tables:
+
+  NOT	true?
+  !false	true
+  !true	false
+
+  OR (||)	true?
+  true || false	true
+  true || true	true
+  false || true	true
+  false || false	false
+
+  Or: just false when both statements are false
+
+  AND (&&)	true?
+  true && false	false
+  true && true	true
+  false && true	false
+  false && false	false
+
+  And: only true when both statements are true
+
+  NOT OR	true?
+  not (true || false)	false
+  not (true || true)	false
+  not (false || true)	false
+  not (false || false)	true
+
+  NOT OR: only true when not false or false
+
+
+  NOT AND	true?
+  !(true && false)	true
+  !(true && true)	false
+  !(false && true)	true
+  !(false && false)	true
+
+  NOT AND: only false when !(true and true)
+
+  !=	true?
+  1 != 0	true
+  1 != 1	false
+  0 != 1	true
+  0 != 0	false
+
+  pretty obvious this one!
+
+  ==	true?
+  1 == 0	false
+  1 == 1	true
+  0 == 1	false
+  0 == 0	true
+
+  pretty obvious too!
