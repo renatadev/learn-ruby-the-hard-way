@@ -5,7 +5,7 @@ while learning how to use GitHub at the same time!
 
 You can find the book/guide [here.](https://learnrubythehardway.org)
 
-I have completed **28/52** exercises.
+I have completed **41/52** exercises.
 
 ## R u b y  E x t r a s:
 
